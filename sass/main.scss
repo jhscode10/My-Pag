@@ -1,3 +1,15 @@
 /*---------------------------------
-             GLOBAL
+            IMPORTS
 -----------------------------------*/
+@use 'base';
+
+#background-galaxi{
+  z-index: -100;
+  position: fixed;
+}
+.section-bar{
+  z-index: 10;
+  height: 80px;
+  width: 100vw;
+  background-color: base.$white;
+}
